@@ -1,5 +1,13 @@
 #home {
-  background-image: url(../images/homebg.jpeg);
-  color: white;
+  /* background-image: url(../images/homebg.jpeg); */
+  color: black;
+  text-align: center;
+  height: 50vh;
+}
+#title{
+  font-size: 100px;
+}
+#choose{
+  display: flex;
   text-align: center;
 }
