@@ -51,6 +51,9 @@ body{
   display: none;
 }
 #menu1{
-  displa: none;
+  display: none;
+}
+#makeOrder, #orderDelivery{
+  background-color: brown;
 }
 
