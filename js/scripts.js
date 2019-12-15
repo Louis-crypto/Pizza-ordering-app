@@ -24,7 +24,7 @@ function totalPrice1 (){
   var QuantityOfPizza = document.getElementById("numberOfPizzas").value;
   price = parseInt(CostOfSize) + parseInt(CostOfCrust) + parseInt(CostOfToppings)
   totalPrice = price * parseInt(QuantityOfPizza);
-  document.getElementById("total").value=totalPrice;
+  document.getElementById("totalDelivery").value = totalPrice;
   event.preventDefault();
 };
 
