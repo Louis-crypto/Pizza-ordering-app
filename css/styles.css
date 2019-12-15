@@ -1,5 +1,5 @@
+
 #home {
-  /* background-image: url(../images/homebg.jpeg); */
   color: black;
   text-align: center;
   height: 50vh;
@@ -7,7 +7,12 @@
 #title{
   font-size: 100px;
 }
+#menu{
+  display: none;
+}
 #choose{
   display: flex;
-  text-align: center;
+}
+#order{
+  padding-left: 30%;
 }

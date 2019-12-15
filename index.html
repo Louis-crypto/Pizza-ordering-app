@@ -13,9 +13,9 @@
 <body>
   <div class="container">
     <div id="home">
-      <img src="images/pizzalog1.png" alt="our logo">
-      <h1 id="title">MAGIC PIZZA</h1>
-      <h4>Experience Love at First Slice</h4>
+      <h1 id="title">MAGIC</h1>
+      <img src="images/title.jpeg">
+      <h4 id="love">Experience Love at First Slice</h4>
     </div>
     <div id="work">
       <div id="choose">
@@ -41,7 +41,7 @@
             </select><br>
 
             <label>Select the crust you like</label>
-            <select id="sizes">
+            <select id="crusts">
               <option value="150" id="biggest">CRISPY</option>
               <option value="100" id="bigger">STUFFED</option>
               <option value="200" id="big">GLUTEN FREE</option>
@@ -50,7 +50,7 @@
             </select><br>
 
             <label>Choose you favourite toppings</label>
-            <select id="sizes">
+            <select id="toppings">
               <option value="100" id="biggest">PEPPERONI</option>
               <option value="100" id="bigger">PINEAPPLE</option>
               <option value="100" id="big">BLACK OLIVES</option>
@@ -62,8 +62,9 @@
             </select><br>
 
             <label>How many pizzas do you want:</label>
-            <input id="numberOfPizzas" type="number">
+            <input id="numberOfPizzas" type="number"><br>
 
+            <button type="submit" value="Submit" onclick="totalPrice()">Place Order</button>
           </fieldset>
         </form>
         <label>Total price</label>
