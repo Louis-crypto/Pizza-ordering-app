@@ -1,4 +1,9 @@
-
+body{
+  background-color: black;
+}
+.container{
+  background-color: white;
+}
 #home {
   color: black;
   text-align: center;
@@ -22,12 +27,21 @@
 #i{
   color: brown;
 }
-
 #title1{
   width: 300px;
 }
 #love{
   font-size: 50px;
+}
+#choose{
+  display: flex;
+  text-align: center;
+}
+.order{
+  margin-left: 10%;
+}
+.deliver{
+  margin-left: 23%;
 }
 #menu{
   display: none;
