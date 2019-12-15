@@ -28,6 +28,8 @@
           <button id="deliver" type="button">click to order</button>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-6">
       <div id="menu">
         <form>
           <fieldset>
@@ -64,13 +66,15 @@
             <label>How many pizzas do you want:</label>
             <input id="numberOfPizzas" type="number"><br>
 
-            <button type="submit" value="Submit" onclick="totalPrice()">Place Order</button>
+            <button type="submit" value="Submit" id="makeOrder" onclick="totalPrice()">Make Order</button>
           </fieldset>
         </form>
         <label>Total price</label>
         <input type="text" id="total" placeholder="total"><br>
       </div>
+    </div>
 
+    <div class="col-md-6">
       <div id="menu1">
           <form>
             <fieldset>
@@ -113,6 +117,9 @@
           <label>Total price</label>
           <input type="text" id="total" placeholder="total"><br>
         </div>
+      </div>
+
+    </div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"

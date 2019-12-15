@@ -25,4 +25,12 @@ $("#order").on("click", function(){
   $(".deliver").hide();
 })
 
+$("#makeOrder").on("click", function(){
+  $(".deliver").show();
+})
+
+$("#deliver").on("click", function(){
+  $("#menu1").fadeIn(1000);
+})
+
 });
