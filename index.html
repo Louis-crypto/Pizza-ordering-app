@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container">
     <div id="home">
       <img src="images/pizzalog1.png" alt="our logo">
       <h1 id="title">MAGIC PIZZA</h1>
@@ -19,13 +19,36 @@
     </div>
     <div id="work">
       <div id="choose">
-      <h2>MAKE YOUR ORDER</h2>
-      <button type="button">click here</button>
-      <h2>ORDER A DELIVERY</h2>
-      <button type="button">click here</button>
-    </div>
+        <div id="order">
+          <h2>MAKE YOUR ORDER</h2>
+          <button type="button">click here</button>
+        </div>
+        <div id="deliver">
+          <h2>ORDER A DELIVERY</h2>
+          <button type="button">click here</button>
+        </div>
+      </div>
+      <div id="menu">
+        <form>
+          <fieldset>
+            <legend>Selecting elements</legend>
+            <label>Select your pizza size</label>
+            <select id="sizes" onchange="run()">
+              <option value="1000" id="biggest">LARGE PIZZA</option>
+              <option value="800" id="bigger">MEDIUM PIZZA</option>
+              <option value="600" id="big">SMALL PIZZA</option>
+            </select>
+          </fieldset>
+          Total price<br>
+          <input type="text" id="total" placeholder="total"><br>
+        </form>
+
+      </div>
     </div>
   </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
