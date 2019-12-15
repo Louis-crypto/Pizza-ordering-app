@@ -6,6 +6,11 @@
 }
 #title{
   font-size: 100px;
+  position: relative;
+  top: 19%;
+}
+#love{
+  font-size: 50px;
 }
 #menu{
   display: none;
