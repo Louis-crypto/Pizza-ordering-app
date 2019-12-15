@@ -43,6 +43,10 @@ body{
 .deliver{
   margin-left: 23%;
 }
+#order, #deliver{
+  background-color: gold;
+}
 #menu{
   display: none;
 }
+
