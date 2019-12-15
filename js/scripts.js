@@ -12,3 +12,16 @@ function totalPrice (){
   document.getElementById("total").value=totalPrice;
   event.preventDefault();
 };
+
+// $("#prodIcon").on("click", function () {
+//   $("#product").show();
+//   $("#prodIcon").hide();
+// });
+
+$(document).ready (function(){
+
+$("#order").on("click", function(){
+  $("#menu").fadeIn(1000);
+})
+
+});

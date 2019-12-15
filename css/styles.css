@@ -7,17 +7,14 @@
 #title{
   font-size: 100px;
   position: relative;
-  top: 19%;
+  top: 15%;
+}
+#title1{
+  width: 300px;
 }
 #love{
   font-size: 50px;
 }
 #menu{
   display: none;
-}
-#choose{
-  display: flex;
-}
-#order{
-  padding-left: 30%;
 }
