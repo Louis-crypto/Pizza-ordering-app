@@ -8,7 +8,21 @@
   font-size: 100px;
   position: relative;
   top: 15%;
+  /* color: gold; */
 }
+#m{
+  color: red;
+}
+#a{
+  color: green;
+}
+#g{
+  color: gold;
+}
+#i{
+  color: brown;
+}
+
 #title1{
   width: 300px;
 }
