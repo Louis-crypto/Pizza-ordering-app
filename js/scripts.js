@@ -26,6 +26,7 @@ function totalPrice1 (){
   totalPrice = price * parseInt(QuantityOfPizza);
   document.getElementById("totalDelivery").value = totalPrice;
   event.preventDefault();
+  
 };
 
 $(document).ready (function(){
@@ -46,5 +47,10 @@ $("#deliver").on("click", function(){
 $("#order").on("click", function(){
   $("#menu1").hide();
 })
+
+$("#orderDelivery").on("click", function(){
+  var yourLocation = document.getElementById("location").value;
+  alert("Your delivery will be made to " + yourLocation + ", delivery fee is Kshs.200");
+});
 
 });
