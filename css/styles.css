@@ -44,7 +44,8 @@ body{
   margin-left: 23%;
 }
 #order, #deliver{
-  background-color: gold;
+  background-color: brown;
+  padding: 10px;
 }
 #menu{
   display: none;
