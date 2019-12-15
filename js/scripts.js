@@ -22,6 +22,7 @@ $(document).ready (function(){
 
 $("#order").on("click", function(){
   $("#menu").fadeIn(1000);
+  $(".deliver").hide();
 })
 
 });
