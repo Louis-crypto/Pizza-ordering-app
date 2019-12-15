@@ -5,4 +5,6 @@
 var sizePrice = document.getElementById("sizes").value;
 var crustPrice = document.getElementById("crusts").value;
 var toppingsPrice = document.getElementById("toppings").value;
-var 
+var pizzasOrdered = document.getElementById("numberOfPizzas").value;
+
+var totalPrice = sizePrice + crustPrice + toppingsPrice * pizzasOrdered
