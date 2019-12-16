@@ -59,5 +59,7 @@ body{
 #about{
   text-align: center;
   background-image: url(../images/homebg.jpeg);
+  color: white;
+  font-size: 24px;
 }
 
