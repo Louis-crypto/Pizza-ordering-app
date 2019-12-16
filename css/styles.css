@@ -34,6 +34,9 @@ body{
 #love{
   font-size: 50px;
 }
+#icon{
+  animation: cubic-bezier(bounce 5s infinite);
+}
 #choose{
   display: flex;
   text-align: center;
