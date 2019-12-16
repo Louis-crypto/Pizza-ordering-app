@@ -53,4 +53,9 @@ $("#orderDelivery").on("click", function(){
   alert("Your delivery will be made to " + yourLocation + ", delivery fee is Kshs.200");
 });
 
+$("#submit").on("click", function () {
+  var userName = document.getElementById("name").value;
+  alert(userName + " " + "we have received your message, thank you for your feedback");
+});
+
 });
