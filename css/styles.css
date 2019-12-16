@@ -56,4 +56,8 @@ body{
 #makeOrder, #orderDelivery{
   background-color: brown;
 }
+#about{
+  text-align: center;
+  background-image: url(../images/homebg.jpeg);
+}
 
