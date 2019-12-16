@@ -4,7 +4,7 @@
 
 ### Description
 This is a project on an application used to order pizza, the application can perform tasks such as making an order for any amount of pizzas.
-You can also make an order for a home delivery. [try it]( https://louis-crypto.github.io/Pizza-ordering-app.github.io/).
+You can also make an order for a home delivery. [try it](https://louis-crypto.github.io/Pizza-ordering-app.github.io/).
 
 ### Technologies used
 * HTML 
