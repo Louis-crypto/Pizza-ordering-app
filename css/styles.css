@@ -38,7 +38,7 @@ body{
   text-align: center;
 }
 .order{
-  margin-left: 10%;
+  margin-left: 8%;
 }
 .deliver{
   margin-left: 23%;
@@ -49,16 +49,18 @@ body{
 }
 #menu{
   display: none;
+  margin-left: 16%;
 }
 #menu1{
   display: none;
+  margin-left: 22%;
 }
 #makeOrder, #orderDelivery{
   background-color: brown;
 }
 #about{
   text-align: center;
-  background-image: url(../images/homebg.jpeg);
+  background-image: url(../images/aboutbg.jpeg);
   color: white;
   font-size: 24px;
 }
