@@ -1,5 +1,6 @@
 body{
-  background-color: black;
+  /* background-image: url(../images/allbg.png); */
+  background-size: cover;
 }
 .container{
   background-color: white;
@@ -39,13 +40,16 @@ body{
 }
 .order{
   margin-left: 8%;
+  text-decoration: underline;
 }
 .deliver{
   margin-left: 23%;
+  text-decoration: underline;
 }
 #order, #deliver{
   background-color: brown;
   padding: 10px;
+  color: white;
 }
 #menu{
   display: none;
@@ -57,11 +61,13 @@ body{
 }
 #makeOrder, #orderDelivery{
   background-color: brown;
+  color: white;
 }
 #about{
   text-align: center;
   background-image: url(../images/aboutbg.jpeg);
   color: white;
   font-size: 24px;
+  margin-top: 6%;
 }
 
