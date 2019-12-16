@@ -1,8 +1,9 @@
 body{
-  background-color: black;
+  background-color: rgba(0, 0, 0);
 }
 .container{
   background-color: white;
+  width: 80%;
 }
 #home {
   color: black;
@@ -62,11 +63,11 @@ body{
 #makeOrder, #orderDelivery{
   background-color: brown;
   color: white;
- 
 }
 #about{
   text-align: center;
-  background-image: url(../images/aboutbg.jpeg);
+  background-image: url(../images/aboutbg3.jpeg);
+  background-size: cover;
   color: white;
   font-size: 24px;
   margin-top: 6%;
@@ -77,10 +78,43 @@ body{
 }
 #contacts{
   margin-top: 10%;
-  background-image: url(../images/aboutbg2.jpeg);
+  background-image: url(../images/aboutbg.jpeg);
   background-size: cover;
   text-align: center;
   color: white;
   font-size: 24px;
-  height: 40vh;
+  height: 54vh;
+}
+#name{
+  background: none;
+  width: 25%;
+  outline: 0;
+  padding: 10px;
+  border: 1px solid white;
+  color: white;
+  font-size: 18px;
+}
+#email{
+  background: none;
+  width: 25%;
+  outline: 0;
+  padding: 10px;
+  border: 1px solid white;
+  color: white;
+  font-size: 18px;
+  
+}
+#message{
+  background: none;
+  width: 52%;
+  outline: 0;
+  margin-top: 2.5%;
+  border: 1px solid white;
+  padding-bottom: 15%;
+  color: white;
+  font-size: 18px;
+}
+::placeholder{
+  color: white;
+  font-size: 18px;
 }
